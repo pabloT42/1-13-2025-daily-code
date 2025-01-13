@@ -1,0 +1,14 @@
+#pablo torres 1/13/2025
+#Write a python function named "CircleCircumference"
+#that takes one parameter r, which will hold a circle's radius
+#When called, it calculates and returns the circumference 
+#(kinda like the perimeter) of the circle
+
+#function definition
+def CircleCircumference(r):
+        return 2 * 3.14 * r
+
+
+result = CircleCircumference(5) #funtion call
+print("the area of this circle is:", result)
+    
