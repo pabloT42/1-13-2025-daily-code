@@ -1,0 +1,14 @@
+# pablo torres 1/13/25
+#Write a python function named "frog" that takes one parameter, also named "num".
+#When called, it prints out a bunch of ribbits, equal to the num you got-
+#so if you pass in 5, the function prints out 5 "ribbits".
+#Call the function twice with different numbers being passed each time.
+
+def frog(num):
+    #for loop that runs num times
+    for i in range(num):
+        print("ribbit")
+    #print ribbit
+        
+    
+frog(5)
